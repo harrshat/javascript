@@ -20,3 +20,19 @@ console.log(jsUser["email"])
 
 myArray = ["h","i"];
 
+jsUser.email = "harrsha.work@gmail.com"
+Object.freeze(jsUser);
+jsUser.email = "harrsha.work@gmail.com"
+console.log(jsUser["email"]);
+jsUser.greeting = function(){
+    console.log("Hello JS user");
+}
+jsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+}
+
+console.log(jsUser.greeting);
+
+
+
+
