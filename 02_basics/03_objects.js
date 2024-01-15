@@ -1,5 +1,7 @@
 //objects in javascript
-//Object.create
+
+//Object.create -- Constructor method of creating objects
+
 //object literals
 
 const mySym = Symbol("key1")
@@ -22,7 +24,7 @@ myArray = ["h","i"];
 
 jsUser.email = "harrsha.work@gmail.com"
 Object.freeze(jsUser);
-jsUser.email = "harrsha.work@gmail.com"
+jsUser.email = "harrshat@gmail.com"
 console.log(jsUser["email"]);
 jsUser.greeting = function(){
     console.log("Hello JS user");
@@ -32,6 +34,7 @@ jsUser.greetingTwo = function(){
 }
 
 console.log(jsUser.greeting);
+
 
 
 
