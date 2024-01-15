@@ -59,6 +59,11 @@ objectUsers[1].email;
 //to get the keys from the key-value pairs of the object
 console.log(Object.keys(objectUsers));
 
+//to check if an object has a property
+console.log(objectUsers.hasOwnProperty('email'));//returns true
+
+console.log(objectUsers.hasOwnProperty('location'));//returns false
+
 
 
 
