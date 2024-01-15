@@ -64,6 +64,23 @@ console.log(objectUsers.hasOwnProperty('email'));//returns true
 
 console.log(objectUsers.hasOwnProperty('location'));//returns false
 
+//Destructuring
+const course = {
+    courseName: "js in english",
+    coursePrice: "999",
+    courseInstructor:"Harrsha"
+}
+
+// Destructuring course.courseInstructor can be written as..
+const {courseInstructor} = course;
+console.log(courseInstructor);
+//OR the above two lines of code can be written as
+//const {courseInstructor: instructor} = course;
+//console.log(instructor);
+
+
+
+
 
 
 
