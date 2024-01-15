@@ -20,11 +20,11 @@ function one(){
 }
 one()
 
-function two = ()=>{
-    let name = "harrsha"
-    console.log(this.name)
-}
-two()
+// function two = ()=>{
+//     let name = "harrsha"
+//     console.log(this.name)
+// }
+// two()
 
 const addTwo = (num1, num2) => {
     return num1 + num2
