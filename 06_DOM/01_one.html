@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM Learning</title>
+    <style>
+        .bg-black {
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-black">
     <div class="bg-black">
         <h1 id="title" class="heading">DOM learning on Chai aur code</h1>
         <p>Lorem ipsum dolor sit amet.</p>
     </div> 
 </body>
 </html>
+<!--
+    document.getElementById('title').getAttribute('id')
+    document.getElementById('title').getAttribute('class')
+
+    document.getElementById('title').getAttribute('class', 'test')-- changes the value of the class attribute to test overwriting the name of the class before
+
+    const title = document.getElementById("title")
+    title.style.backgroundColor= 'green';
+    title.style.padding = " 15px "
+    title.style.borderRadius = "15px"
+
+    to get the content,
+    title.textContent
+    title.innerText
+    title.innerHTML
+
+    document.getElementsByClassName('heading')
+
+    document.querySelector('h1')
+    document.querySelectorAll('h1')
+    document.querySelector('#title') //# for id, . for class
+    document.querySelector('input[type="password"]')
+
+
+
+-->
