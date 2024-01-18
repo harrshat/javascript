@@ -16,8 +16,10 @@
     div.setAttribute('title','generated title')
     div.style.backgroundColor = "green"
     div.style.padding = "12px"
-    div.innerHTML = "DOM Manipulation"
-    document.createTextNode("Harrsha")
-
+    //div.innerText = "DOM Manipulation"
+    const addText = document.createTextNode("Harrsha")
+    div.appendChild(addText);
+    document.body.appendChild(div);
+    
 </script>
 </html>
