@@ -1,2 +1,2 @@
-# javascript
+# Javascript
 Code repo for Javascript
